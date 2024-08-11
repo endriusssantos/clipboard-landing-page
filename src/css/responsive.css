@@ -1,0 +1,142 @@
+@media (max-width: 425px) {
+    body {
+        background-image: url(../images/bg-header-mobile.png);
+    }
+
+    button {
+        width: 300px;
+        height: 45px;
+    }
+
+    .container .main-content {
+        text-align: center;
+    }
+
+    .container .main-content .logo {
+        padding: 70px 0 40px;
+    }
+
+    .container .main-content .title {
+        font-size: 24px;
+        max-width: 250px;
+    }
+
+    .container .main-content .description {
+        max-width: 310px;
+    }
+
+    .container .main-content .buttons,
+    .container .four-content .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .container .second-content .title {
+        font-size: 22px;
+    }
+
+    .container .second-content .description {
+        max-width: 300px;
+    }
+
+    .container .second-content .functions {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 80px;
+    }
+
+    .container .second-content .functions .image {
+        width: 300px;
+    }
+
+    .container .second-content .functions .functions-examples .description {
+        text-align: center;
+        max-width: 300px;
+    }
+
+    .container .third-content {
+        text-align: center;
+    }
+
+    .container .third-content .title {
+        font-size: 22px;
+    }
+
+    .container .third-content .description {
+        max-width: 300px;
+        padding: 20px 0 50px;
+    }
+
+    .container .third-content .image {
+        width: 300px;
+    }
+
+    .container .examples {
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .container .examples .blacklists .icon,
+    .container .examples .snippets .icon,
+    .container .examples .preview .icon {
+        height: 70px;
+    }
+
+    .container .examples .blacklists .title,
+    .container .examples .snippets .title,
+    .container .examples .preview .title {
+        font-size: 22px;
+    }
+
+    .container .examples .blacklists .description,
+    .container .examples .snippets .description,
+    .container .examples .preview .description {
+        padding: 20px 0 30px;
+        max-width: 300px;
+    }
+
+    .container .companies {
+        padding-top: 120px;
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .container .four-content {
+        text-align: center;
+    }
+
+    .container .four-content .title {
+        font-size: 22px;
+        max-width: 250px;
+    }
+
+    .container .four-content .description {
+        max-width: 300px;
+    }
+
+    .footer-main {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .footer-main .logo {
+        padding-bottom: 30px;
+    }
+
+    .footer-main .items {
+        width: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-main .items .item.space {
+        padding: 10px 80px;
+    }
+
+    .footer-main .icons {
+        padding-top: 30px;
+        gap: 25px;
+    }
+}

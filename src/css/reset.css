@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: hsl(210, 10%, 33%);
+    text-decoration: none;
+}
+
+button {
+    font-family: 'Bai Jamjuree', sans-serif;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    width: 170px;
+    height: 35px;
+    border-radius: 30px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.6;
+}

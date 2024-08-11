@@ -1,0 +1,205 @@
+body {
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .main-content .logo {
+    width: 80px;
+    padding: 100px 0 30px;
+}
+
+.container .main-content .title {
+    font-size: 32px;
+}
+
+.container .main-content .description {
+    max-width: 550px;
+    text-align: center;
+    padding: 10px 0;
+    line-height: 25px;
+}
+
+.container .main-content .buttons {
+    padding: 20px 0 50px 0;
+}
+
+.container .main-content .buttons .ios,
+.container .four-content .buttons .ios {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 3px 0px 0px hsl(170, 66%, 37%);
+    margin-right: 5px;
+}
+
+.container .main-content .buttons .mac,
+.container .four-content .buttons .mac {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 3px 0px 0px hsl(233, 56%, 56%);
+}
+
+.container .second-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container .second-content .title {
+    font-size: 28px;
+}
+
+.container .second-content .description {
+    padding: 20px 0 80px;
+    max-width: 630px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.container .second-content .functions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 150px;
+}
+
+.container .second-content .functions .functions-examples .title {
+    font-size: 22px;
+}
+
+.container .second-content .functions .functions-examples .description {
+    padding: 10px 0 50px;
+    text-align: left;
+    max-width: 350px;
+}
+
+.container .third-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .third-content .title {
+    font-size: 28px;
+}
+
+.container .third-content .description {
+    padding: 20px 0 100px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.container .third-content .image {
+    padding-bottom: 100px;
+}
+
+.container .examples {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+    gap: 30px;
+}
+
+.container .examples .blacklists .icon,
+.container .examples .snippets .icon,
+.container .examples .preview .icon {
+    height: 68px;
+    padding-bottom: 30px;
+}
+
+.container .examples .blacklists .description,
+.container .examples .snippets .description,
+.container .examples .preview .description {
+    padding: 20px 0 100px;
+    max-width: 350px;
+    line-height: 25px;
+}
+
+.container .companies {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+    padding-top: 50px;
+}
+
+.container .four-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.container .four-content .title {
+    font-size: 28px;
+}
+
+.container .four-content .description {
+    text-align: center;
+    padding: 10px 0 30px;
+    max-width: 600px;
+    line-height: 25px;
+}
+
+.footer-main {
+    background-color: hsl(210, 33%, 94%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+    padding: 20px 0;
+}
+
+.footer-main .logo {
+    width: 60px;
+}
+
+.footer-main .items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+}
+
+.footer-main .items .item {
+    padding: 10px 80px;
+}
+
+.footer-main .items .item.space {
+    padding: 10px 36px 10px 80px;
+}
+
+.footer-main .icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-main .icons .icon {
+    font-size: 22px;
+}
+
+.footer-main a:hover {
+    transition: 0.3s;
+    color: hsl(171, 66%, 44%);
+}
